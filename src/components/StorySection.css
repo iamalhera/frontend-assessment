@@ -1,0 +1,93 @@
+.story-pallet {
+    margin: auto;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.story-pallet::-webkit-scrollbar {
+    display: none;
+}
+
+.profile-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid #ff8501;
+    margin: 0 auto;
+}
+
+.profile-container img {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+    margin-top: 5px;
+    color: black !important;
+    font-size: 12px;
+    width: 70px;
+    white-space: normal;
+}
+
+.story-overlay {
+    position: absolute;
+    top: 40;
+    left: 0;
+    height: 480px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+/* Elevated story box */
+.story-canvas {
+    background-color: white;
+    padding: 0px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    width: 95%;
+    height: 90%;
+    position: relative;
+    overflow: auto;
+}
+
+.story-canvas img {
+    width: 100%;
+    height: 85%;
+}
+
+.hide-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 10px 15px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
